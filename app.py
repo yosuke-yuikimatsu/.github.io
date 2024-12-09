@@ -20,4 +20,4 @@ def render_server_error(error):
 
 
 if __name__ == '__main__':
-    app.run(port=5002, debug=True)
+    app.run(port=0, debug=True)
